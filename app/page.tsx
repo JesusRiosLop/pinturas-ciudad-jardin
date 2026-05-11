@@ -7,7 +7,7 @@ export default function HomePage() {
     <main className="bg-white">
 
       {/* ── HERO ── */}
-      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-20 md:py-28">
+      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-10 md:py-28">
         <div className="grid lg:grid-cols-2 items-center gap-12">
 
           <div className="space-y-7">
@@ -55,7 +55,7 @@ export default function HomePage() {
 
       {/* ── CARACTERÍSTICAS ── */}
       <section className="bg-zinc-100">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-14 md:py-20">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-8 md:py-20">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12">
             {[
               {
@@ -90,7 +90,7 @@ export default function HomePage() {
       </section>
 
       {/* ── DAMOS COLOR A TUS IDEAS ── */}
-      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-20 md:py-28">
+      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-10 md:py-28">
         <div className="grid lg:grid-cols-2 items-center gap-12">
 
           <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-md group">
@@ -146,7 +146,7 @@ export default function HomePage() {
       </section>
 
       {/* ── INSPIRACIÓN Y CONSEJOS ── */}
-      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-20 md:py-28">
+      <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-10 md:py-28">
         <div className="mb-12">
           <h2 className="text-4xl md:text-5xl font-semibold tracking-tight text-green-900">
             Inspiración y consejos

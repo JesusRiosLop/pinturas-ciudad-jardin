@@ -15,7 +15,7 @@ export default function Contacto() {
   return (
     <main className="flex flex-col flex-1">
       <section className="bg-white flex-1">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-20 md:py-28">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-10 md:py-28">
 
           {/* Grid principal */}
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">

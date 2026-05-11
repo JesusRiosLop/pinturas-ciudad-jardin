@@ -36,7 +36,7 @@ export default function Servicios() {
 
       {/* ── Cabecera ── */}
       <section className="bg-white flex-1">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-8 md:py-16">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-green-900">
@@ -67,7 +67,7 @@ export default function Servicios() {
 
       {/* ── Grid de servicios ── */}
       <section className="bg-zinc-100 border-t border-zinc-200">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-14 md:py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-8 md:py-16">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12">
             {servicios.map(({ icon: Icon, titulo, desc }) => (
               <div key={titulo} className="space-y-3">

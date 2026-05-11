@@ -22,7 +22,7 @@ export default function Marcas() {
 
       {/* ── Cabecera + logos ── */}
       <section className="bg-white flex-1">
-        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-20 md:py-28">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 py-10 md:py-28">
 
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-green-900">
             Marcas colaboradoras
