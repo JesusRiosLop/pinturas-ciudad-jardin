@@ -32,7 +32,7 @@ export default function Marcas() {
           </p>
 
           {/* Grid de logos */}
-          <div className="mt-14 grid grid-cols-3 gap-6">
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6">
             {marcas.map((marca) => (
               <div
                 key={marca.alt}
@@ -43,7 +43,7 @@ export default function Marcas() {
                     src={marca.src}
                     alt={marca.alt}
                     fill
-                    sizes="33vw"
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     className={`object-contain ${marca.logoScale ?? ""}`}
                   />
                 </div>
